@@ -41,3 +41,5 @@ if [ -f /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.z
     . /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
     ZSH_HIGHLIGHT_STYLES[command]='fg=blue,bold'
 fi
+
+source /usr/share/nvm/init-nvm.sh
