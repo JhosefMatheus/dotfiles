@@ -1,0 +1,1 @@
+ln -fns ~/dotfiles/.zshrc ~/.zshrc
