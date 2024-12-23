@@ -43,3 +43,9 @@ if [ -f /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.z
 fi
 
 source /usr/share/nvm/init-nvm.sh
+export PATH=$PATH:~/Android/Sdk/platform-tools
+export JAVA_HOME=/usr/lib/jvm/java-17-openjdk
+export PATH=$JAVA_HOME/bin:$PATH
+export ANDROID_HOME=~/Android/Sdk
+export PATH=$ANDROID_HOME/emulator:$ANDROID_HOME/tools:$ANDROID_HOME/tools/bin:$ANDROID_HOME/platform-tools:$PATH
+export NODE_OPTIONS="--max-old-space-size=4096"
